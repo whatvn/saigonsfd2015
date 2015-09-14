@@ -1,0 +1,10 @@
+[system]
+port_thrift = 1463		
+minthread = 200
+maxthread = 2000
+timeout = 100
+[kafka]
+list = 192.168.10.225:9092,192.168.10.225:9093
+topic = crawler
+
+

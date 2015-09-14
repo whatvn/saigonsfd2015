@@ -1,0 +1,952 @@
+2014-11-04 10:11:31 ERROR Config:46 - Can't load configuration file
+org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source null/development.app.ini
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.HierarchicalINIConfiguration.<init>(HierarchicalINIConfiguration.java:232)
+	at vn.ambient.rtweb.utils.Config.init(Config.java:44)
+	at vn.ambient.rtweb.utils.Config.<clinit>(Config.java:27)
+	at vn.ambient.rtweb.ServerMain.main(ServerMain.java:36)
+2014-11-04 10:12:28 INFO  log:188 - Logging initialized @508ms
+2014-11-04 10:12:28 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-04 10:12:28 INFO  ServerConnector:266 - Started ServerConnector@74a5eac1{HTTP/1.1}{0.0.0.0:8080}
+2014-11-04 10:12:28 INFO  Server:379 - Started @972ms
+2014-11-04 10:14:09 INFO  log:188 - Logging initialized @374ms
+2014-11-04 10:14:09 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-04 10:14:09 INFO  ServerConnector:266 - Started ServerConnector@1576f881{HTTP/1.1}{0.0.0.0:8080}
+2014-11-04 10:14:09 INFO  Server:379 - Started @645ms
+2014-11-04 10:23:23 INFO  log:188 - Logging initialized @519ms
+2014-11-04 10:23:23 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-04 10:23:23 INFO  ServerConnector:266 - Started ServerConnector@3021eb3f{HTTP/1.1}{0.0.0.0:8080}
+2014-11-04 10:23:23 INFO  Server:379 - Started @873ms
+2014-11-04 10:24:22 INFO  CounterController:30 - Counter start ...
+2014-11-04 10:24:22 INFO  CounterController:33 - Counter end!
+2014-11-04 10:28:06 INFO  log:188 - Logging initialized @485ms
+2014-11-04 10:28:06 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-04 10:28:06 INFO  ServerConnector:266 - Started ServerConnector@9317bfb{HTTP/1.1}{0.0.0.0:8080}
+2014-11-04 10:28:06 INFO  Server:379 - Started @794ms
+2014-11-04 10:29:06 INFO  CounterController:31 - Counter start ...
+2014-11-04 10:29:06 INFO  CounterController:34 - Counter end!
+2014-11-04 10:33:42 INFO  log:188 - Logging initialized @405ms
+2014-11-04 10:33:42 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-04 10:33:42 INFO  ServerConnector:266 - Started ServerConnector@519e09e8{HTTP/1.1}{0.0.0.0:8080}
+2014-11-04 10:33:42 INFO  Server:379 - Started @665ms
+2014-11-04 10:34:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 10:34:42 INFO  CounterController:34 - Counter end!
+2014-11-04 10:39:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 10:39:42 INFO  CounterController:34 - Counter end!
+2014-11-04 10:44:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 10:44:42 INFO  CounterController:34 - Counter end!
+2014-11-04 10:49:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 10:49:42 INFO  CounterController:34 - Counter end!
+2014-11-04 10:54:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 10:54:42 INFO  CounterController:34 - Counter end!
+2014-11-04 10:59:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 10:59:42 INFO  CounterController:34 - Counter end!
+2014-11-04 11:04:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 11:04:42 INFO  CounterController:34 - Counter end!
+2014-11-04 14:10:42 INFO  log:188 - Logging initialized @585ms
+2014-11-04 14:10:42 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-04 14:10:42 INFO  ServerConnector:266 - Started ServerConnector@10b090ac{HTTP/1.1}{0.0.0.0:8080}
+2014-11-04 14:10:42 INFO  Server:379 - Started @1037ms
+2014-11-04 14:11:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:11:42 INFO  CounterController:34 - Counter end!
+2014-11-04 14:11:56 ERROR RedisUtil:455 - Cannot add key %s with value %s redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+2014-11-04 14:16:42 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:16:42 INFO  CounterController:34 - Counter end!
+2014-11-04 14:16:53 INFO  log:188 - Logging initialized @615ms
+2014-11-04 14:16:53 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-04 14:16:54 INFO  ServerConnector:266 - Started ServerConnector@68f92ae2{HTTP/1.1}{0.0.0.0:8080}
+2014-11-04 14:16:54 INFO  Server:379 - Started @957ms
+2014-11-04 14:17:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:17:53 INFO  CounterController:34 - Counter end!
+2014-11-04 14:22:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:22:53 INFO  CounterController:34 - Counter end!
+2014-11-04 14:27:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:27:53 INFO  CounterController:34 - Counter end!
+2014-11-04 14:32:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:32:53 INFO  CounterController:34 - Counter end!
+2014-11-04 14:37:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:37:53 INFO  CounterController:34 - Counter end!
+2014-11-04 14:42:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:42:53 INFO  CounterController:34 - Counter end!
+2014-11-04 14:47:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:47:53 INFO  CounterController:34 - Counter end!
+2014-11-04 14:52:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:52:53 INFO  CounterController:34 - Counter end!
+2014-11-04 14:57:53 INFO  CounterController:31 - Counter start ...
+2014-11-04 14:57:53 INFO  CounterController:34 - Counter end!
+2014-11-14 11:14:49 INFO  log:188 - Logging initialized @613ms
+2014-11-14 11:22:29 INFO  log:188 - Logging initialized @534ms
+2014-11-14 11:22:29 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-14 11:22:29 INFO  ServerConnector:266 - Started ServerConnector@522ef2d7{HTTP/1.1}{0.0.0.0:8080}
+2014-11-14 11:22:29 INFO  Server:379 - Started @897ms
+2014-11-14 11:28:10 INFO  log:188 - Logging initialized @493ms
+2014-11-14 11:28:10 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-14 11:28:10 WARN  AbstractLifeCycle:212 - FAILED ServerConnector@391ba64d{HTTP/1.1}{0.0.0.0:8080}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:320)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at vn.ambient.rdapi.ServerMain.main(ServerMain.java:99)
+2014-11-14 11:28:10 WARN  AbstractLifeCycle:212 - FAILED org.eclipse.jetty.server.Server@6faa7dbc: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:320)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at vn.ambient.rdapi.ServerMain.main(ServerMain.java:99)
+2014-11-14 11:28:23 INFO  log:188 - Logging initialized @305ms
+2014-11-14 11:28:23 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-14 11:28:23 INFO  ServerConnector:266 - Started ServerConnector@1038160a{HTTP/1.1}{0.0.0.0:8080}
+2014-11-14 11:28:23 INFO  Server:379 - Started @539ms
+2014-11-14 11:28:43 INFO  log:188 - Logging initialized @300ms
+2014-11-14 11:28:43 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-14 11:28:43 INFO  ServerConnector:266 - Started ServerConnector@522ef2d7{HTTP/1.1}{0.0.0.0:8080}
+2014-11-14 11:28:43 INFO  Server:379 - Started @502ms
+2014-11-14 11:38:04 INFO  log:188 - Logging initialized @508ms
+2014-11-14 11:38:16 INFO  log:188 - Logging initialized @301ms
+2014-11-14 11:38:16 INFO  Server:327 - jetty-9.2.3.v20140905
+2014-11-14 11:38:16 INFO  ServerConnector:266 - Started ServerConnector@8492b68{HTTP/1.1}{0.0.0.0:8080}
+2014-11-14 11:38:16 INFO  Server:379 - Started @601ms
+2015-03-17 16:14:57 INFO  log:188 - Logging initialized @627ms
+2015-03-17 16:14:57 INFO  Server:327 - jetty-9.2.3.v20140905
+2015-03-17 16:14:57 INFO  ServerConnector:266 - Started ServerConnector@5b519e2b{HTTP/1.1}{0.0.0.0:8080}
+2015-03-17 16:14:57 INFO  Server:379 - Started @1078ms
+2015-03-17 16:23:52 INFO  log:188 - Logging initialized @559ms
+2015-03-17 16:23:52 INFO  Server:327 - jetty-9.2.3.v20140905
+2015-03-17 16:23:52 INFO  ServerConnector:266 - Started ServerConnector@349f754{HTTP/1.1}{0.0.0.0:8080}
+2015-03-17 16:23:52 INFO  Server:379 - Started @953ms
+2015-08-21 18:08:17 INFO  log:186 - Logging initialized @523ms
+2015-08-21 18:08:17 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:08:17 INFO  ServerConnector:270 - Started ServerConnector@1b4253ed{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:08:17 INFO  Server:397 - Started @995ms
+2015-08-21 18:09:24 ERROR RedisUtil:456 - Cannot add key %s with value %s redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015-08-21 18:09:27 ERROR RedisUtil:456 - Cannot add key %s with value %s redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015-08-21 18:10:29 INFO  log:186 - Logging initialized @348ms
+2015-08-21 18:10:30 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:10:30 INFO  ServerConnector:270 - Started ServerConnector@32d524ee{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:10:30 INFO  Server:397 - Started @638ms
+2015-08-21 18:10:32 ERROR RedisUtil:456 - Cannot add key %s with value %s redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015-08-21 18:11:01 ERROR RedisUtil:456 - Cannot add key %s with value %s redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015-08-21 18:12:30 INFO  log:186 - Logging initialized @402ms
+2015-08-21 18:12:31 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:12:31 INFO  ServerConnector:270 - Started ServerConnector@32d524ee{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:12:31 INFO  Server:397 - Started @790ms
+2015-08-21 18:12:37 ERROR RedisUtil:456 - Cannot add key %s with value %s redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015-08-21 18:14:25 INFO  log:186 - Logging initialized @409ms
+2015-08-21 18:14:58 INFO  log:186 - Logging initialized @365ms
+2015-08-21 18:14:58 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:14:58 INFO  ServerConnector:270 - Started ServerConnector@3884c0f2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:14:58 INFO  Server:397 - Started @677ms
+2015-08-21 18:15:03 ERROR RedisUtil:456 - Cannot add key %s with value %s redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015-08-21 18:17:47 INFO  log:186 - Logging initialized @450ms
+2015-08-21 18:17:47 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:17:47 INFO  ServerConnector:270 - Started ServerConnector@63dfb4c2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:17:47 INFO  Server:397 - Started @821ms
+2015-08-21 18:18:30 INFO  log:186 - Logging initialized @390ms
+2015-08-21 18:18:30 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:18:30 INFO  ServerConnector:270 - Started ServerConnector@50c87b21{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:18:30 INFO  Server:397 - Started @719ms
+2015-08-21 18:21:37 INFO  log:186 - Logging initialized @389ms
+2015-08-21 18:21:37 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:21:37 INFO  ServerConnector:270 - Started ServerConnector@4732c45a{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:21:37 INFO  Server:397 - Started @726ms
+2015-08-21 18:22:25 INFO  log:186 - Logging initialized @433ms
+2015-08-21 18:22:25 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:22:26 INFO  ServerConnector:270 - Started ServerConnector@7794878{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:22:26 INFO  Server:397 - Started @932ms
+2015-08-21 18:35:24 INFO  log:186 - Logging initialized @401ms
+2015-08-21 18:35:25 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:35:25 INFO  ServerConnector:270 - Started ServerConnector@3784c628{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:35:25 INFO  Server:397 - Started @748ms
+2015-08-21 18:36:17 INFO  log:186 - Logging initialized @369ms
+2015-08-21 18:36:17 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:36:17 INFO  ServerConnector:270 - Started ServerConnector@2c738a90{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:36:17 INFO  Server:397 - Started @728ms
+2015-08-21 18:37:22 INFO  log:186 - Logging initialized @396ms
+2015-08-21 18:37:22 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:37:34 INFO  log:186 - Logging initialized @369ms
+2015-08-21 18:37:35 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:38:03 INFO  log:186 - Logging initialized @367ms
+2015-08-21 18:38:03 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:38:47 INFO  log:186 - Logging initialized @366ms
+2015-08-21 18:38:47 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:38:47 INFO  ServerConnector:270 - Started ServerConnector@4732c45a{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:38:47 INFO  Server:397 - Started @759ms
+2015-08-21 18:39:35 INFO  log:186 - Logging initialized @375ms
+2015-08-21 18:39:35 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 18:39:35 INFO  ServerConnector:270 - Started ServerConnector@4732c45a{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 18:39:35 INFO  Server:397 - Started @695ms
+2015-08-21 19:08:16 INFO  log:186 - Logging initialized @363ms
+2015-08-21 19:08:17 WARN  ContextHandler:1309 - o.e.j.s.h.ContextHandler@4e04a765{/,null,null} contextPath ends with /
+2015-08-21 19:08:17 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:08:17 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@4e04a765{/api,null,AVAILABLE}
+2015-08-21 19:08:26 INFO  log:186 - Logging initialized @333ms
+2015-08-21 19:08:27 WARN  ContextHandler:1309 - o.e.j.s.h.ContextHandler@4e04a765{/,null,null} contextPath ends with /
+2015-08-21 19:08:27 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:08:27 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@4e04a765{/api,null,AVAILABLE}
+2015-08-21 19:08:27 INFO  ServerConnector:270 - Started ServerConnector@6574b225{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 19:08:27 INFO  Server:397 - Started @628ms
+2015-08-21 19:10:07 INFO  log:186 - Logging initialized @329ms
+2015-08-21 19:10:07 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@4e04a765{/,null,null} contextPath ends with /*
+2015-08-21 19:10:07 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:10:07 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@4e04a765{/api,null,AVAILABLE}
+2015-08-21 19:10:07 INFO  ServerConnector:270 - Started ServerConnector@5eded2da{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 19:10:07 INFO  Server:397 - Started @678ms
+2015-08-21 19:12:36 INFO  log:186 - Logging initialized @4694ms
+2015-08-21 19:12:37 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@3444d69d{/,null,null} contextPath ends with /*
+2015-08-21 19:12:37 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:12:37 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@3444d69d{/api,null,AVAILABLE}
+2015-08-21 19:12:48 INFO  log:186 - Logging initialized @868ms
+2015-08-21 19:12:49 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@4ba2ca36{/,null,null} contextPath ends with /*
+2015-08-21 19:12:49 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:12:49 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@4ba2ca36{/api,null,AVAILABLE}
+2015-08-21 19:12:49 INFO  ServerConnector:270 - Started ServerConnector@2eadba4a{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 19:12:49 INFO  Server:397 - Started @1540ms
+2015-08-21 19:14:12 INFO  log:186 - Logging initialized @2493ms
+2015-08-21 19:14:13 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@4ba2ca36{/,null,null} contextPath ends with /*
+2015-08-21 19:14:13 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:14:13 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@4ba2ca36{/api,null,AVAILABLE}
+2015-08-21 19:14:13 INFO  ServerConnector:270 - Started ServerConnector@b0ae4d9{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 19:14:13 INFO  Server:397 - Started @3341ms
+2015-08-21 19:15:05 INFO  log:186 - Logging initialized @601ms
+2015-08-21 19:15:05 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@4e04a765{/,null,null} contextPath ends with /*
+2015-08-21 19:15:05 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:15:05 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@4e04a765{/api,null,AVAILABLE}
+2015-08-21 19:15:05 INFO  ServerConnector:270 - Started ServerConnector@461f7838{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 19:15:05 INFO  Server:397 - Started @987ms
+2015-08-21 19:15:34 INFO  log:186 - Logging initialized @2468ms
+2015-08-21 19:15:35 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@4ba2ca36{/,null,null} contextPath ends with /*
+2015-08-21 19:15:35 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:15:35 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@4ba2ca36{/api,null,AVAILABLE}
+2015-08-21 19:15:35 INFO  ServerConnector:270 - Started ServerConnector@268cdcd4{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 19:15:35 INFO  Server:397 - Started @3177ms
+2015-08-21 19:25:36 INFO  log:186 - Logging initialized @589ms
+2015-08-21 19:25:37 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@4e04a765{/,null,null} contextPath ends with /*
+2015-08-21 19:25:37 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-08-21 19:25:37 INFO  ContextHandler:738 - Started o.e.j.s.h.ContextHandler@4e04a765{/api,null,AVAILABLE}
+2015-08-21 19:25:37 INFO  ServerConnector:270 - Started ServerConnector@3bda862b{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-08-21 19:25:37 INFO  Server:397 - Started @1030ms
+2015-09-11 16:07:49 INFO  log:186 - Logging initialized @486ms
+2015-09-11 16:07:49 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@668bc3d5{/,null,null} contextPath ends with /*
+2015-09-11 16:07:49 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:07:49 INFO  ServerConnector:270 - Started ServerConnector@3dd3bcd{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-09-11 16:11:55 INFO  log:186 - Logging initialized @5269ms
+2015-09-11 16:11:57 WARN  ContextHandler:1304 - o.e.j.s.h.ContextHandler@2b4a2ec7{/,null,null} contextPath ends with /*
+2015-09-11 16:12:03 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:12:11 INFO  ServerConnector:270 - Started ServerConnector@44e01c2d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-09-11 16:18:54 INFO  log:186 - Logging initialized @375ms
+2015-09-11 16:18:54 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:18:54 INFO  ServerConnector:270 - Started ServerConnector@397d26c9{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-09-11 16:18:54 INFO  Server:397 - Started @671ms
+2015-09-11 16:20:31 INFO  log:186 - Logging initialized @326ms
+2015-09-11 16:20:31 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:20:31 INFO  ServerConnector:270 - Started ServerConnector@1cfee76d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-09-11 16:20:31 INFO  Server:397 - Started @619ms
+2015-09-11 16:20:58 INFO  log:186 - Logging initialized @320ms
+2015-09-11 16:20:58 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:21:08 INFO  log:186 - Logging initialized @306ms
+2015-09-11 16:21:08 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:21:08 INFO  ServerConnector:270 - Started ServerConnector@6c60ed61{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-09-11 16:21:08 INFO  Server:397 - Started @616ms
+2015-09-11 16:21:42 INFO  log:186 - Logging initialized @319ms
+2015-09-11 16:21:42 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:21:43 INFO  ServerConnector:270 - Started ServerConnector@45c4286c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-09-11 16:21:43 INFO  Server:397 - Started @618ms
+2015-09-11 16:21:55 WARN  ServletHandler:629 - /
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at sg.sfd2015.demo.utils.AppParams.getIntParams(AppParams.java:20)
+	at sg.sfd2015.demo.controller.ApiHandler.doGet(ApiHandler.java:27)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:816)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:513)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-11 16:24:12 INFO  log:186 - Logging initialized @332ms
+2015-09-11 16:24:12 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:24:13 INFO  ServerConnector:270 - Started ServerConnector@14764c3e{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-09-11 16:24:13 INFO  Server:397 - Started @654ms
+2015-09-11 16:26:48 INFO  log:186 - Logging initialized @321ms
+2015-09-11 16:26:48 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 16:26:48 INFO  ServerConnector:270 - Started ServerConnector@2dde9518{HTTP/1.1,[http/1.1]}{127.0.0.1:8080}
+2015-09-11 16:26:48 INFO  Server:397 - Started @587ms
+2015-09-11 17:14:14 INFO  log:186 - Logging initialized @388ms
+2015-09-11 17:14:15 INFO  ThriftPool:75 - Initialize Memcache connection pool....
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #0
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #1
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #2
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #3
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #4
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #5
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #6
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #7
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #8
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  ThriftPool:78 - Activate conntion id #9
+2015-09-11 17:14:15 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:59)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:14:15 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 17:14:15 INFO  ServerConnector:270 - Started ServerConnector@1e84a772{HTTP/1.1,[http/1.1]}{127.0.0.1:8080}
+2015-09-11 17:14:15 INFO  Server:397 - Started @1069ms
+2015-09-11 17:14:46 INFO  log:186 - Logging initialized @305ms
+2015-09-11 17:14:46 INFO  ThriftPool:75 - Initialize Memcache connection pool....
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #0
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #1
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #2
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #3
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #4
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #5
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #6
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #7
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #8
+2015-09-11 17:14:46 INFO  ThriftPool:78 - Activate conntion id #9
+2015-09-11 17:14:46 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 17:14:46 INFO  ServerConnector:270 - Started ServerConnector@4960bfeb{HTTP/1.1,[http/1.1]}{127.0.0.1:8080}
+2015-09-11 17:14:46 INFO  Server:397 - Started @750ms
+2015-09-11 17:21:07 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:12 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:13 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:13 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:13 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:14 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:14 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:14 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:14 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:15 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:15 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:20 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:21 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:21 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:21 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:21 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:22 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:22 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:22 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:22 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:23 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:23 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:23 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:23 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:23 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:24 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:24 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:24 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:55 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:56 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:56 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:57 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:57 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:57 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:57 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:58 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:58 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:58 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:58 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:58 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:59 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:59 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:59 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:21:59 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:22:00 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:22:00 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:22:00 ERROR ApiHandler:56 - I can't give anything
+2015-09-11 17:26:42 INFO  log:186 - Logging initialized @392ms
+2015-09-11 17:26:42 INFO  ThriftPool:75 - Initialize Memcache connection pool....
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #0
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #1
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #2
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #3
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #4
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #5
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #6
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #7
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #8
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:42 INFO  ThriftPool:78 - Activate conntion id #9
+2015-09-11 17:26:42 ERROR ThriftPool:61 - Exception when get resource from pool: {}
+java.lang.Exception: Could not get a resource from the pool
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:40)
+	at com.ethicconsultant.common.ThriftPool.getResource(ThriftPool.java:57)
+	at com.ethicconsultant.common.ThriftPool.initPool(ThriftPool.java:79)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.<init>(ScribeClient.java:47)
+	at sg.sfd2015.demo.utils.scribe.ScribeClient.getInstance(ScribeClient.java:26)
+	at sg.sfd2015.demo.controller.ApiHandler.<clinit>(ApiHandler.java:28)
+	at sg.sfd2015.demo.ServerMain.main(ServerMain.java:60)
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at com.ethicconsultant.common.ThriftPoolableFactory.makeObject(ThriftPoolableFactory.java:45)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:836)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:434)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at com.ethicconsultant.common.Pool.getResource(Pool.java:38)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 12 more
+2015-09-11 17:26:43 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 17:26:43 INFO  ServerConnector:270 - Started ServerConnector@3ffb9fe6{HTTP/1.1,[http/1.1]}{127.0.0.1:8080}
+2015-09-11 17:26:43 INFO  Server:397 - Started @993ms
+2015-09-11 17:26:59 INFO  log:186 - Logging initialized @321ms
+2015-09-11 17:26:59 INFO  ThriftPool:75 - Initialize Memcache connection pool....
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #0
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #1
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #2
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #3
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #4
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #5
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #6
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #7
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #8
+2015-09-11 17:26:59 INFO  ThriftPool:78 - Activate conntion id #9
+2015-09-11 17:26:59 INFO  Server:345 - jetty-9.3.2.v20150730
+2015-09-11 17:26:59 INFO  ServerConnector:270 - Started ServerConnector@41f92c6b{HTTP/1.1,[http/1.1]}{127.0.0.1:8080}
+2015-09-11 17:26:59 INFO  Server:397 - Started @755ms
