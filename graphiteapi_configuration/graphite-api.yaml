@@ -1,0 +1,13 @@
+search_index: /data/graphite/index
+finders:
+  - graphite_api.finders.whisper.WhisperFinder
+functions:
+  - graphite_api.functions.SeriesFunctions
+  - graphite_api.functions.PieFunctions
+whisper:
+  directories:
+    - /data/graphite
+cache:
+    CACHE_TYPE: 'filesystem'
+    CACHE_DIR: '/tmp/graphite-api-cache'
+time_zone: Asia/Ho_Chi_Minh
