@@ -1,0 +1,1 @@
+wrk -c 100 -t 4 -d 3000s -s multiplepaths.lua http://127.0.0.1:8080/

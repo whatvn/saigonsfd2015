@@ -1,0 +1,14 @@
+cd /sfd/elasticsearch/; ./runserver start
+cd /sfd/kafka; ./bin/zookeeper-server-start.sh ./config/zookeeper.properties &
+cd /sfd/kafka; ./bin/kafka-server-start.sh ./config/server.properties &
+/etc/init.d/carbon-cache start
+cd /sfd/scripts/; bash ./start_graphite
+cd /sfd/java-projects/scribeproxy/; ./runserver start
+cd /sfd/java-projects/SFDDemoServer/; ./runserver start
+cd /sfd/java-projects/CounterWrk/; ./runserver start
+cd /sfd/nginx/; ./sbin/nginx 
+
+
+
+
+
