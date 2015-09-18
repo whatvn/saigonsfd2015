@@ -7,7 +7,7 @@ index.number_of_shards: 5
 index.number_of_replicas: 1
 path.data: /data/elasticsearch
 path.work: /tmp/elasticsearch_temp
-path.logs: /abserver/elasticsearch/logs
+path.logs: /sfd/logs
 bootstrap.mlockall: true
 transport.tcp.port: 9300
 transport.tcp.compress: true
